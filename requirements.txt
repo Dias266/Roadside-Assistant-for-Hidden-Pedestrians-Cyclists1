@@ -3,6 +3,7 @@ carla==0.9.16
 matplotlib==3.11.2
 numpy 
 opencv-python==5.0.0.93
+pandas
 pillow==12.3.0
 psutil
 torch==2.5.1+cu124
