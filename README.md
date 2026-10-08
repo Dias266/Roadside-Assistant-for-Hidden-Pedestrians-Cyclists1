@@ -4,14 +4,13 @@ A roadside camera (RSU) in CARLA detects pedestrians and cyclists hidden behind 
 and warns an approaching car over MQTT. The car fuses the warning with its own camera and slows down
 or brakes. Three occlusion scenarios are run with and without the warning.
 
-## Contents
 | File | Description |
 |---|---|
 | `roadsideAssistant_mqtt.ipynb` | Full system: RSU detection, MQTT messaging, vehicle policy, scenarios, metrics |
 | `yolov8n.pt` | YOLOv8n weights (COCO) used by both cameras |
 | `requirements.txt` | Python dependencies |
-| `docs/Roadside_Assistant_Report.pdf` | Project report |
-| `docs/Seeing-around-the-corner.pptx` | Presentation |
+| `Roadside_Assistant_Report.pdf` | Project report |
+| `Roadside_Assistant_for_hidden_pedestrians_and_cyclists_in_CARLA.pdf` | Presentation |
 
 ## Setup
 Tested with Python 3.12 and the CARLA 0.9.16 server on Windows.
